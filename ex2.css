@@ -1,0 +1,56 @@
+* {
+  background-color: cornsilk;
+}
+/* 
+1. 자식을 100%로 해두고, 부모에게 margin, padding 주기
+2. 50%로 바꾸고, margin: 0 auto, auto 비교
+3. in2 만들어서 margin 비교 - 부모와 빨강, 빨강파랑 간격이 같음
+
+4. border / box-sizing / radius
+5. shadow
+
+*/
+
+.outer {
+  background-color: orange;
+  width: 70vw;
+  height: 70vw;
+  margin: 20px;
+  padding: 10px;
+  /* padding: 10px 40px 30px 50px; */
+  box-shadow: 12px 20px 30px royalblue;
+  box-shadow: inset 12px 20px 30px royalblue;
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+}
+
+.in1 {
+  background-color: red;
+  /* width: 100%;
+  height: 100%; */
+  width: 50%;
+  height: 50%;
+
+  /* margin: 0 auto; */
+  /* margin: auto */
+  margin: 30px;
+
+  border: solid;
+  border: 5px solid;
+  border: 5px dotted;
+  border: outset green 10px;
+  /* box-sizing: border-box; 50% 50%를 유지하고 싶음*/
+  /* box-sizing: content-box; 이게 디폴트 */
+
+  border-radius: 100%;
+  border-radius: 0 16%;
+  border-radius: 10% 20% 30% 40%;
+}
+
+.in2 {
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  margin: 30px;
+}

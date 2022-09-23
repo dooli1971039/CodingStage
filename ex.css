@@ -1,0 +1,38 @@
+* {
+  margin: 30px;
+}
+
+/* 
+1. sp1, dv1 일때 200px 해보기 - inline/block 차이
+sp1을 inline-block으로 바꿔보기
+
+2. dv1 200px이후, dv2 50% 보여주기, dv3 calc 보여주기
+3. 이후, 20vh, 20vw 보여주기 
+4. dv2에서 display:none, visibility:hidden
+*/
+.sp1 {
+  /* display: inline-block; */
+  background-color: red;
+  width: 200px;
+  height: 30px;
+}
+
+.dv1 {
+  background-color: yellow;
+  width: 200px;
+}
+
+.dv2 {
+  background-color: blue;
+  width: 50%;
+  /* width: 20vw; */
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+.dv3 {
+  background-color: green;
+  width: calc(50% - 100px);
+  height: 30px;
+  /* width: 20vh; */
+}
