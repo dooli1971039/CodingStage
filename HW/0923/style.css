@@ -1,0 +1,65 @@
+body{
+  background: linear-gradient(217deg, rgba(255, 55, 95, 0.4), rgba(255, 55, 95, 0) 70.71%),
+  linear-gradient(127deg, rgba(255, 214, 10, 0.4), rgba(255, 214, 10, 0) 70.71%),
+  linear-gradient(336deg, rgba(94, 92, 230, 0.4), rgba(94, 92, 230, 0) 70.71%);
+
+  overflow-y: hidden;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.MyInfo {
+  margin: 36px auto;
+  width: 600px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: #eee6f0;
+  box-shadow: 2px 2px gray;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ProfilePic {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  
+}
+.Info{
+  width: 250px;
+}
+.TextBlue{
+  font-weight: bold;
+  color: blue;
+  text-decoration: wavy underline skyblue;
+}
+
+.TMI {
+  margin: 36px auto;
+  width: 700px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: #ffdeff;
+  box-shadow: 2px 2px gray;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.UlTmi{
+  list-style: "⭐"; 
+}
+
+.UlTmi>li{
+  margin: 10px;
+}
+
+.TextRed{
+  font-weight: bold;
+  color: red;
+}
