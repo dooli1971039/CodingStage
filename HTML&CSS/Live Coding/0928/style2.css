@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  /* border-collapse: separate; */
+  border: 1px solid red;
+  caption-side: top;
+  table-layout: fixed;
+
+  height: 200px;
+}
+
+th,
+td {
+  border: 1px soli gray;
+}
+
+colgroup col:nth-child(1) {
+  width: 100px;
+}
+
+colgroup col:nth-child(2) {
+  width: 150px;
+}
