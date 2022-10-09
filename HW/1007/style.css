@@ -1,0 +1,24 @@
+body {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 30px;
+}
+
+.week_section,
+.weather_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.week,
+.weather {
+  width: 100px;
+  height: 50px;
+}
